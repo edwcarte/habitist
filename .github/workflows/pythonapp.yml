@@ -1,8 +1,9 @@
 name: habitist
 
 on:
+  push:
   schedule:
-    - cron: '5 8 * * *'
+    - cron: '12 8 * * *'
 
 jobs:
   build:
